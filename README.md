@@ -15,6 +15,12 @@ RIFTAGENT is a prompt-orchestration workflow that turns a short theme (e.g. "mel
 
 Instead of manually writing detailed prompts for every item, RIFTAGENT handles tier selection, item description, and prompt formatting automatically, then hands the result off to an image model (e.g. Nano Banana / Nano Banana Pro) for rendering as a clean, white-background product shot.
 
+## 🖼️ Gallery
+
+| Example Agent | Example SKILL | INFINITE | POSSIIBILITIES |
+|-----------|--------------|------------|-------------|
+| ![hero](example_riftagent.png) | ![cross](example_skill.png) | ![array](docs/images/tile_array.jpeg) | ![tile](docs/images/single_tile.jpeg) |
+
 ## Core Concept
 
 Each "roll" generates one item drawn from a themed pool, with the following mechanics:
@@ -24,6 +30,8 @@ Each "roll" generates one item drawn from a themed pool, with the following mech
 - **Studio-quality output**: Every generated item is described as a professional product shot on a plain white background, ready for direct use in a shop, game asset library, or showcase
 - **Provenance tracking**: Each item's origin (which theme, which roll, when) is recorded so buyers/users can see where an item came from
 - **Multi-item and bulk pulls**: Supports both single rolls and 10x-style bulk pulls, consistent with familiar gacha UX patterns
+
+![rift](rift.gif)
 
 ## How It Works
 
